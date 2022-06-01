@@ -1,36 +1,247 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote Generator</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="quote-container" id="quote-container">
-        <!-- Quote -->
-        <div class="quote-text">
-            <i class="fas fa-quote-left"></i>
-            <span id="quote"></span>
-        </div>
-        <!-- Author -->
-        <div class="quote-author">
-            <span id="author"></span>
-        </div>
-        <!-- Buttons -->
-        <div class="button-container">
-            <button class="twitter-button" id="twitter" title="Tweet This!">
-                <i class="fab fa-twitter"></i>
-            </button>
-            <button id="new-quote">New Quote</button>
-        </div>
-    </div>
-    <!-- Loader -->
-    <div class="loader" id="loader"></div>
-    <!-- Script -->
-    <script src="quotes.js"></script>
-    <script src="script.js"></script>
-</body>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Leigh Hays Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Portfolio</a></li>
+							<li><a href="#two">About Me</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Leigh Hays</h1>
+							<p>Welcome to my Portfolio that includes some projects I have worked on. </p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/Dataanalysis.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Google Data Analytics Capstone </h2>
+									<p>Bellabeat Data Analysis Case Study</p>
+									<ul class="actions">
+										<li><a href="https://github.com/leightheanalyst/Bellabeat_Casestudy" class="button">View Project</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/datacenter.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>SQL</h2>
+									<p>Data Cleaning using SQL</p>
+									<ul class="actions">
+										<li><a href="https://github.com/leightheanalyst/Data-Cleaning-Nashville-Housing/blob/main/Portfolio%20Project%20Queries.sql" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/chart.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Tableau</h2>
+									<p>Tableau Visualizations</p>
+									<ul class="actions">
+										<li><a href="https://public.tableau.com/app/profile/leigh.hays#!/?newProfile=&activeTab=0" class="button">Tableau</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/purplecode.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Coding Projects</h2>
+									<p>Here are a few of my Coding projects, I have been working on in GitHub</p>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+	
+					</section>
+					
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>About Me</h2>
+							<p>I have a degree in Computer Information Systems, and a technical background.<br>I am a lifelong learner and enjoy learning about new technology.
+							<br>I recently completed the Google Data Analytics certification and am interested in Data Analyis, so I can help companies make data driven decisions.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Coding Skills</h3>
+									<p>R Programming, SQL, Java, C++, Javascript, HTML, CSS</p>
+									<h3>Soft Skills</h3>
+									<p>Customer Support experience that has helped me develop good communication skills.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Education</h3>
+									<p>BBA - Computer Information Systems <br> West Texas A&M University</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Certifications</h3>
+									<ul><a href="https://www.credly.com/badges/4f549349-4d00-4db7-9798-61bae753a373/public_url">Google Data Analytics</a>
+									</ul>
+									<ul> <a href="https://app.hubspot.com/academy/achievements/2q95d61s/en/1/leigh-hays/inbound">HubSpot Inbound</a></ul>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Professional Development</h3>
+									<p>DataCamp</p>
+									<p>Working on Azure and AWS Cloud certifications</p>
+									<p>Python and Web Developer courses on Udemy</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Data Analytics Community</h3>
+									<ul></u><a href="https://www.kaggle.com/leighhays">Kaggle</a></ul>
+									<ul><a href="https://public.tableau.com/app/profile/leigh.hays#!/?newProfile=&activeTab=0">Tableau</a></ul>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Hobbies</h3>
+									<p>I enjoy spending time with my family, and traveling.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Coding Projects</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>You can contact me via email or connect on LinkedIn.</p>
+							<div class="split style1">
+								<section>
+									<!--<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>-->
+									<li>
+										<h3>Email</h3>
+										<a href="mailto:leighhays@gmail.com?subject=Mail from our Website">leighhays@gmail.com</a>
+									</li>
+									<li>
+										<h3>Social</h3>
+										<ul class="icons">
+											<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+											<li><a href="https://github.com/leighhays" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+											<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+											<li><a href="https://www.linkedin.com/in/leigh-h-854545146/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											
+										</ul>
+									</li>
+								</section> 
+								
+								<section>
+									<ul class="contact">
+										<!-- <li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li> -->
+										<!--<li>
+											<h3>Email</h3>
+											<a href="mailto:leighhays@gmail.com?subject=Mail from our Website">leighhays@gmail.com</a>
+										</li>
+										 <li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li> 
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> 
+												<li><a href="https://github.com/leighhays" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												 <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> 
+												<li><a href="https://www.linkedin.com/in/leigh-h-854545146/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												
+											</ul>
+										</li>
+									</ul> -->
+									<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4f549349-4d00-4db7-9798-61bae753a373" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
